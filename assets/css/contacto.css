@@ -67,3 +67,22 @@
 .contacto__imagen:hover .contacto__tooltip {
     visibility: visible;
 }
+
+@media screen and (min-width: 0) {
+    .contacto {
+        padding: var(--padding-formateo-mobile);
+    }
+    .contacto__imagen {
+        display: none;
+    }
+    .contacto__titulo {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+    .contacto__form {
+        width: 100%;
+    }
+    .contacto__button {
+        margin-bottom: 1rem;
+    }
+}

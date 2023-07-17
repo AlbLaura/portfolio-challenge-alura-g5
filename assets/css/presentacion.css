@@ -2,7 +2,6 @@
     background: var(--background-gris-claro);
     padding: var(--padding-formateo);
     display: flex;
-    align-items: center;
 }
 
 .presentacion-info {
@@ -40,6 +39,34 @@
 .presentacion__imagen {
     background: url('../img/laura.jpg') no-repeat center / cover;
     height: 400px;
-    width: 500px;
+    width: 400px;
     border-radius: 100%;
+}
+
+@media screen and (min-width: 0) {
+    .presentacion {
+        padding: var(--padding-formateo-mobile);
+        display: flex;
+        flex-direction: column;
+    }
+    .presentacion__titulo {
+        font-size: 1.5rem;
+    }
+    .presentacion__descripcion {
+        font-size: 1rem;
+        padding: 0;
+    }
+    .presentacion__imagen {
+        order: -1;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 1rem;
+    }
+    .presentacion__item {
+        font-size: .8rem;
+        margin: 0;
+    }
+    .presentacion__lista {
+        justify-content: space-between;
+    }
 }

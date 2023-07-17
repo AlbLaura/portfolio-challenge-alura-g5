@@ -11,3 +11,16 @@
 .footer__fecha {
     font-size: 1.2rem;
 }
+
+@media screen and (min-width: 0) {
+    .footer {
+        padding: var(--padding-formateo-mobile);
+    }
+    .footer__autor {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .footer__fecha {
+        font-size: 1rem;
+    }
+}

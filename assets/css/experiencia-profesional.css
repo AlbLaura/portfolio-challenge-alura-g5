@@ -59,3 +59,16 @@
     cursor: pointer;
     box-shadow: inset 0px 0px 20px 23px rgba(0,0,0,0.1);
 }
+
+@media screen and (min-width: 0) {
+    .experiencia-profesional {
+        padding: var(--padding-formateo-mobile);
+    }
+    .exp-prof__contenedor {
+        flex-direction: column;
+    }
+    .exp-prof__imagen-proyecto {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}

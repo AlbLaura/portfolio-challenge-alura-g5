@@ -34,3 +34,12 @@
 .skillyhobbies__imagen {
     font-size: 4rem;
 }
+
+@media screen and (min-width: 0) {
+    .skillyhobbies {
+        padding: var(--padding-formateo-mobile);
+    }
+    .skillyhobbies__items {
+        margin-bottom: 1rem;
+    }
+}
