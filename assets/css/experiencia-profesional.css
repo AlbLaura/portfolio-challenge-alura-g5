@@ -1,0 +1,59 @@
+.experiencia-profesional {
+    background: var(--background-gris-claro);
+    padding: var(--padding-formateo);
+}
+.exp-prof__titulo {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.exp-prof__contenedor {
+    display: flex;
+    margin-bottom: 5rem;
+}
+.exp-prof__imagen-proyecto {
+    width: 60%;
+    margin-right: 2rem;
+}
+.contenedor-order {
+    flex-direction: row-reverse;
+}
+.exp-prof__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.exp_prof__nombre {
+    font-size: 1.6rem;
+}
+.exp-prof__descripcion {
+    margin: 1rem 0;
+}
+.exp-prof__botones {
+    display: flex;
+}
+.exp-prof__btn {
+    text-decoration: none;
+    padding: 1rem;
+    margin-right: 1rem;
+    border: 1px solid;
+}
+.btn-repositorio {
+    background-color: var(--background-gris-claro);
+    color: var(--color-azul);
+    border-color: var(--color-azul);
+}
+.btn-demo {
+    background-color: var(--color-azul);
+    color:aliceblue;
+}
+.btn-repositorio:hover {
+    cursor: pointer;
+    background-color: var(--color-azul);
+    box-shadow: inset 0px 0px 20px 23px rgba(0,0,0,0.1);
+    color: aliceblue;
+}
+.btn-demo:hover {
+    cursor: pointer;
+    box-shadow: inset 0px 0px 20px 23px rgba(0,0,0,0.1);
+}

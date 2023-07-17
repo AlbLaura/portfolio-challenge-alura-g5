@@ -1,0 +1,13 @@
+:root {
+    --background-gris-claro: #EDEDED;
+    --background-blanco: #FFFFFF;
+    --color-azul: #2A7AE4;
+    --color-azul-claro: #EAF2FD;
+    --color-gris-oscuro: #464646;
+    --padding-formateo: 4rem 8rem 4rem 8rem;
+}
+
+body {
+    font-family: Raleway, sans-serif !important;
+    color: var(--color-gris-oscuro);
+}

@@ -1,0 +1,12 @@
+.about {
+    background-color: var(--color-azul-claro);
+    padding: 3rem 40% 3rem 8rem;
+}
+
+.about__titulo {
+    font-size: 2rem;
+}
+
+.about__descripcion {
+    font-size: 1.2rem;
+}

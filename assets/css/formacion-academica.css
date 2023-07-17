@@ -1,0 +1,36 @@
+.formacion-academica {
+    padding: var(--padding-formateo);background: var(--color-azul-claro);
+}
+.formacion-academica__titulo {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.formacion-academica__contenedor {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.formacion-academica__item {
+    width: 300px;
+}
+.formacion-academica__imagen{
+    height: 200px;
+    background: var(--background-blanco) center / contain no-repeat;
+}
+.imagen--ulp {
+    background-image: url('../img/ulp-virtual.png');
+}
+.imagen--alura {
+    background-image: url('../img/alura-latam.png');
+}
+.imagen--ap {
+    background-image: url('../img/arg-prog.png');
+}
+.imagen--fray {
+    background-image: url('../img/fray-luis-beltran.png');
+}
+.formacion-academica__nombre {
+    font-size: 1rem;
+    margin: .5rem 0;
+}
