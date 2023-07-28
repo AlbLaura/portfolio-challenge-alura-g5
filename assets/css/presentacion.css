@@ -1,6 +1,5 @@
 .presentacion {
     background: var(--background-gris-claro);
-    padding: var(--padding-formateo);
     display: flex;
 }
 
@@ -9,21 +8,11 @@
     flex-direction: column;
 }
 
-.presentacion__titulo {
-    font-size: 3rem;
-}
-
-.presentacion__descripcion {
-    font-size: 1.5rem;
-    padding-right: 10rem;
-}
-
 .presentacion__lista {
     display: flex;
 }
 
 .presentacion__item {
-    margin-right: 3rem;
     list-style: none;
 }
 
@@ -38,12 +27,10 @@
 
 .presentacion__imagen {
     background: url('../img/laura.jpg') no-repeat center / cover;
-    height: 400px;
-    width: 400px;
     border-radius: 100%;
 }
 
-@media screen and (min-width: 0) {
+@media screen and (min-width: 0px) {
     .presentacion {
         padding: var(--padding-formateo-mobile);
         display: flex;
@@ -68,5 +55,50 @@
     }
     .presentacion__lista {
         justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .presentacion {
+        padding: var(--padding-formateo-tablet);
+        flex-direction: row;
+    }
+    .presentacion-info {
+        padding-right: 1rem;
+        width: 70%;
+    }
+    .presentacion__imagen {
+        order: 0;
+        width: 200px;
+        height: 200px;
+    }
+    .presentacion__item {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 998px) {
+    .presentacion {
+        padding: var(--padding-formateo);
+    }
+    .presentacion-info {
+        margin-right: 2rem;
+    }
+    .presentacion__titulo {
+        font-size: 3rem;
+    }
+    .presentacion__imagen {
+        height: 350px;
+        width: 350px;
+    }
+    .presentacion__descripcion {
+        font-size: 1.5rem;
+    }
+    .presentacion__lista {
+        justify-content: flex-start;
+    }
+    .presentacion__item {
+
+        margin-right: 3rem;
     }
 }

@@ -15,4 +15,15 @@
     .about {
         padding: var(--padding-formateo-mobile)
     }
+    .about__titulo {
+        font-size: 1.5rem;
+    }
+    .about__descripcion {
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .about {
+        padding: var(--padding-formateo-tablet);
+    }
 }

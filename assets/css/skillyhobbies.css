@@ -13,7 +13,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 2rem;
 }
 
 .skillyhobbies__items {
@@ -39,7 +38,16 @@
     .skillyhobbies {
         padding: var(--padding-formateo-mobile);
     }
+    .skillyhobbies__contenedor {
+        margin-bottom: 2rem;
+    }
     .skillyhobbies__items {
         margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .skillyhobbies {
+        padding: var(--padding-formateo-tablet);
     }
 }

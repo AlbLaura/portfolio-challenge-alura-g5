@@ -5,8 +5,10 @@
     --color-azul-claro: #EAF2FD;
     --color-gris-oscuro: #464646;
     --padding-formateo: 4rem 8rem 4rem 8rem;
-    /* --padding-formateo-tablet: ; */
+    --padding-formateo-tablet: 2rem 4rem 2rem 4rem;
     --padding-formateo-mobile: 1rem 2rem 1rem 2rem;
+    --cursor-hover: not-allowed;
+    --opacity-button: 0.4;
 }
 
 body {
