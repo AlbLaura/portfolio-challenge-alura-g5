@@ -169,25 +169,27 @@
             <div class="contacto__imagen">
                 <address class="contacto__tooltip">Creador: <a href="https://www.behance.net/mkcreativeco" target="_blank">Mark Kirkpatrick</a></address>
             </div> 
-            <form action="#" class="contacto__form">
-                <h3 class="contacto__titulo">Contacto</h3>
-                <p class="contacto__descripcion">¿Quieres contactarme? <br> Completa el siguiente formulario y me pondre en contacto contigo lo antes posible ༼ つ ◕_◕ ༽つ</p>
-                <div class="contacto__info">
-                    <div class="contacto__input">
-                        <input class="contacto__item" type="text" name="nombre" id="c_nombre" data-form-nombre placeholder="Nombre" onblur="habilitar()" required>
+            <fieldset class="contacto__form">
+                <legend class="contacto__titulo">Contacto</legend>
+                <form action="#" class="contacto__contenedor">
+                    <p class="contacto__descripcion">¿Quieres contactarme? <br> Completa el siguiente formulario y me pondre en contacto contigo lo antes posible ༼ つ ◕_◕ ༽つ</p>
+                    <div class="contacto__info">
+                        <div class="contacto__input">
+                            <input class="contacto__item" type="text" name="nombre" id="c_nombre" data-form-nombre placeholder="Nombre" onblur="habilitar()" required>
+                        </div>
+                        <div class="contacto__input">
+                            <input class="contacto__item" type="email" name="email" id="c_email" data-form-email placeholder="Email" onblur="habilitar()" required>
+                        </div>
+                        <div class="contacto__input">
+                            <input class="contacto__item" type="text" name="asunto" id="c_asunto" data-form-asunto placeholder="Asunto" onblur="habilitar()" required>
+                        </div>
+                        <div class="contacto__input">
+                            <textarea class="contacto__item" name="mensaje" id="c_mensaje" cols="30" rows="10" data-form-mensaje placeholder="Mensaje" onblur="habilitar()" required></textarea>
+                        </div>
+                        <input type="submit" value="Enviar Mensaje" class="contacto__button" id="c_boton-submit" data-form-submit disabled>
                     </div>
-                    <div class="contacto__input">
-                        <input class="contacto__item" type="email" name="email" id="c_email" data-form-email placeholder="Email" onblur="habilitar()" required>
-                    </div>
-                    <div class="contacto__input">
-                        <input class="contacto__item" type="text" name="asunto" id="c_asunto" data-form-asunto placeholder="Asunto" onblur="habilitar()" required>
-                    </div>
-                    <div class="contacto__input">
-                        <textarea class="contacto__item" name="mensaje" id="c_mensaje" cols="30" rows="10" data-form-mensaje placeholder="Mensaje" onblur="habilitar()" required></textarea>
-                    </div>
-                    <input type="submit" value="Enviar Mensaje" class="contacto__button" id="c_boton-submit" data-form-submit disabled>
-                </div>
-            </form>
+                </form>
+            </fieldset>
         </section>
     </main>
 

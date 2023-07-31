@@ -6,11 +6,15 @@
     font-size: 2rem;
     margin-bottom: 2rem;
 }
+.contacto__contenedor {
+    width: 100%;
+    height: 90%;
+}
 .contacto__info {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 85%;
+    height: 100%;
 }
 .contacto__input {
     display: flex;
@@ -56,9 +60,12 @@
     .contacto__titulo {
         font-size: 1.5rem;
         margin: 0;
+        font-weight: bold;
     }
     .contacto__form {
+        margin: 0;
         width: 100%;
+        border-color: var(--color-azul);
     }
     .contacto__button {
         margin-bottom: 1rem;
